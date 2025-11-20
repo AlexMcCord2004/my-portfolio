@@ -99,7 +99,7 @@ export default function ContactPage() {
             View a downloadable copy of my latest resume.
           </p>
           <a
-            href="/_Alex McCord CS Resume copy.pdf"
+            href="/Alex McCord CS Resume Copy.pdf"
             target="_blank"
             rel="noreferrer"
             className="mt-3 inline-block rounded-md border border-neutral-700 px-3 py-1 text-red-300 text-sm hover:border-red-400 hover:text-red-200 transition"
