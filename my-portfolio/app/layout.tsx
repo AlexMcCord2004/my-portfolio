@@ -22,21 +22,21 @@ export default function RootLayout({
             <nav className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
               {/* Logo / Name */}
               <Link href="/" className="text-lg font-semibold tracking-tight">
-                Alex McCord
+                Alex Reed McCord Portfolio
               </Link>
 
               {/* Nav links */}
               <div className="flex gap-4 text-sm">
-                <Link href="/" className="hover:text-teal-300 transition">
+                <Link href="/" className="hover:text-red-300 transition">
                   Home
                 </Link>
-                <Link href="/projects" className="hover:text-teal-300 transition">
+                <Link href="/projects" className="hover:text-orange-300 transition">
                   Projects
                 </Link>
-                <Link href="/about" className="hover:text-teal-300 transition">
+                <Link href="/about" className="hover:text-blue-300 transition">
                   About
                 </Link>
-                <Link href="/contact" className="hover:text-teal-300 transition">
+                <Link href="/contact" className="hover:text-yellow-300 transition">
                   Contact
                 </Link>
               </div>

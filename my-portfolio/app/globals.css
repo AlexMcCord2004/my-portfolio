@@ -1,11 +1,8 @@
 @import "tailwindcss";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --foreground: #fcfcfc;
 }
 
 @theme inline {
@@ -28,6 +25,3 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.projects-page h1{ 
-color: rgb(red, green, blue);  
-}
